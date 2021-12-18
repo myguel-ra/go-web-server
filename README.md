@@ -1,4 +1,4 @@
-# Golang web-server
+# Golang Web Server
 
 > Project created for demonstration, please dont use it.
 
@@ -9,7 +9,7 @@ Used in these two websites:
 * [Build your Go image](https://docs.docker.com/language/golang/build-images/)
 * [Kubernetes Pods](https://kubernetes.io/docs/concepts/workloads/pods/)
 
-### Running the example
+### Setup
 
 * Build image with multi-stages
 
@@ -17,7 +17,7 @@ Used in these two websites:
     docker build -t myguel/http-server:latest .
     ```
 
-* Run with Docker
+* Run and test with Docker
 
     ```sh
     docker run --publish 8080:8080 myguel/http-server
